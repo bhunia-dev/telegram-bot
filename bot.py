@@ -1,8 +1,7 @@
-import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
-TOKEN = os.getenv("8827531750:AAH_0sxgVeMag0X_VMY_ySaykkMoGihD2Kw")
+TOKEN = "8827531750:AAH_0sxgVeMag0X_VMY_ySaykkMoGihD2Kw"
 
 async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text
